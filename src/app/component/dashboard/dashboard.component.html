@@ -40,13 +40,13 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr *ngFor="let studnet of studentsList">
-                            <td >{{studnet.first_name}}</td>
-                            <td>{{studnet.last_name}}</td>
-                            <td>{{studnet.email}}</td>
-                            <td>{{studnet.mobile}}</td>
+                          <tr *ngFor="let student of studentsList">
+                            <td >{{student.first_name}}</td>
+                            <td>{{student.last_name}}</td>
+                            <td>{{student.email}}</td>
+                            <td>{{student.mobile}}</td>
                             <td>
-                                <button class="btn btn-outline-danger" (click)="deleteStudent(studnet)">Delete</button>
+                                <button class="btn btn-outline-danger" (click)="deleteStudent(student)">Delete</button>
                             </td>
                           </tr>
                         </tbody>
